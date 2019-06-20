@@ -1,0 +1,23 @@
+{
+  "name": "ioa-router",
+  "version": "0.2.2",
+  "description": "ioa路由中间件",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "ioa": "^8.0.0",
+    "lloader": "^4.0.0"
+  }
+}
