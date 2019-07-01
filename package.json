@@ -1,6 +1,6 @@
 {
   "name": "ioa-router",
-  "version": "0.2.2",
+  "version": "9.0.0",
   "description": "ioa路由中间件",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "ioa": "^9.0.1"
+  },
   "files": [
     "lib"
   ],
@@ -16,8 +18,5 @@
     "lib": "lib",
     "test": "test"
   },
-  "devDependencies": {
-    "ioa": "^8.0.0",
-    "lloader": "^4.0.0"
-  }
+  "devDependencies": {}
 }
