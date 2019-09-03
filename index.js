@@ -6,4 +6,4 @@ ioa.loader({
    "./main": {
       "enable": true,
    },
-});
+})

@@ -1,7 +1,7 @@
 'use strict';
 
-const levels = require('../lib/levels.js');
+const loads = require('../lib/loads.js');
 
 module.exports = {
-   ...levels
+   ...loads
 }
