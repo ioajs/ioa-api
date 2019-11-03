@@ -13,4 +13,4 @@ router.on('/login', 'home.login');
 
 router.on('/sms', 'home.sms');
 
-console.log(common.WebSocket)
+console.log(common.Subscribe);
