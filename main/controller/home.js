@@ -8,7 +8,7 @@ class home {
       ctx.body = ctx.params;
    }
    login(ctx) {
-      let body = ctx.request.body
+      const body = ctx.request.body
       ctx.body = {
          type: 'login',
          body
