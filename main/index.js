@@ -1,5 +1,12 @@
 'use strict';
 
+const app = require('@app');
+
 const loads = require('../lib/loads.js');
 
-module.exports = loads;
+app.loader({
+   ...loads,
+   "koa.js": {
+      "lever": 15
+   }
+});
