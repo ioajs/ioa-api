@@ -7,6 +7,6 @@ const loads = require('../lib/loads.js');
 app.loader({
    ...loads,
    "koa.js": {
-      "lever": 15
+      "level": 15
    }
 });

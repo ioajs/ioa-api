@@ -1,6 +1,6 @@
 {
   "name": "ioa-router",
-  "version": "9.7.2",
+  "version": "9.7.3",
   "description": "ioa 路由中间件",
   "main": "lib/index.js",
   "scripts": {
