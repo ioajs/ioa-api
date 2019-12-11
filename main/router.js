@@ -11,10 +11,4 @@ router.get('/sms/:name/:sub', 'home.sms');
 
 router.get('/login', 'home.login');
 
-router.on('/login', 'home.login');
-
-router.on('/sms', 'home.sms');
-
-console.log(common.Subscribe);
-
-// console.log(common.routerTree)
+console.log(common.routerTree);
