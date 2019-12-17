@@ -1,8 +1,8 @@
 {
   "name": "ioa-router",
-  "version": "9.7.3",
+  "version": "9.7.4",
   "description": "ioa 路由中间件",
-  "main": "lib/index.js",
+  "main": "lib/middleware.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

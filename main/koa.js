@@ -1,7 +1,7 @@
 'use strict';
 
 const Koa = require('koa');
-const middleware = require('../lib/index.js');
+const middleware = require('../lib/middleware.js');
 
 const koa = new Koa();
 

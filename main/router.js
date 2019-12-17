@@ -1,7 +1,12 @@
 'use strict';
 
-const { router } = require('@app');
-const common = require('../lib/common.js');
+const app = require('@app');
+const routerTree = require('../lib/routerTree.js');
+
+const { router, middleware } = app;
+const { cors } = middleware;
+
+router.global(cors);
 
 router.get('/', 'home.index');
 
@@ -11,4 +16,6 @@ router.get('/sms/:name/:sub', 'home.sms');
 
 router.get('/login', 'home.login');
 
-console.log(common.routerTree);
+setTimeout(() => {
+   console.log(routerTree.tree.GET);
+}, 1000);
