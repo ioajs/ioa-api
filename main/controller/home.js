@@ -8,10 +8,13 @@ module.exports = class {
     ctx.body = ctx.params;
   }
   login(ctx) {
-    const body = ctx.request.body
+
+    const body = ctx.request.body;
+
     ctx.body = {
       type: 'login',
       body
     };
+
   }
 };

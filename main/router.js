@@ -1,12 +1,12 @@
 'use strict';
 
 const app = require('@app');
-const routerTree = require('../lib/routerTree.js');
+// const routerTree = require('../lib/routerTree.js');
 
 const { router, middleware } = app;
-const { cors } = middleware;
+const { test } = middleware;
 
-router.global(cors);
+router.global(test);
 
 router.get('/', 'home.index');
 
@@ -14,10 +14,12 @@ router.get('/sms/a/b', 'home.sms');
 
 router.get('/sms/:name/:sub', 'home.sms');
 
-router.get('/login', 'home.login');
+router.post('/login', 'home.login');
 
-setTimeout(() => {
+router.get('/user/:id', 'user.index');
 
-   console.log(routerTree.tree.GET);
+// setTimeout(() => {
+
+//    console.log(routerTree.tree.GET);
    
-}, 1000);
+// }, 1000);
