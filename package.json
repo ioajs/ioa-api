@@ -1,6 +1,6 @@
 {
   "name": "ioa-router",
-  "version": "9.7.6",
+  "version": "9.7.7",
   "description": "ioa 路由中间件",
   "main": "lib/middleware.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@koa/cors": "^3.0.0",
-    "ioa": "^9.7.1",
+    "ioa": "^9.8.6",
     "koa": "^2.11.0"
   }
 }

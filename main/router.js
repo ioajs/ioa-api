@@ -17,5 +17,7 @@ router.get('/sms/:name/:sub', 'home.sms');
 router.get('/login', 'home.login');
 
 setTimeout(() => {
+
    console.log(routerTree.tree.GET);
+   
 }, 1000);
