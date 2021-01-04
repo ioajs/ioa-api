@@ -2,10 +2,14 @@
 
 module.exports = class {
   index(ctx) {
+
     ctx.body = 'hello ioa';
+    
   }
   sms(ctx) {
+
     ctx.body = ctx.params;
+
   }
   login(ctx) {
 
