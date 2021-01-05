@@ -10,6 +10,10 @@ router.global(test);
 
 router.get('/', 'home.index');
 
+router.get('/object', 'object.index');
+
+router.get('/func', 'func');
+
 router.get('/sms/a/b', 'home.sms');
 
 router.get('/sms/:name/:sub', 'home.sms');
