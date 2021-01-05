@@ -12,6 +12,6 @@ test('post /login', async t => {
    t.deepEqual(data, {
       type: 'login',
       body
-   })
+   });
 
 });
