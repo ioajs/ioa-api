@@ -1,8 +1,7 @@
-'use strict';
+import ioa from 'ioa';
+import loads from '../lib/loads.js';
 
-const app = require('@app');
-
-const loads = require('../lib/loads.js');
+const { app } = ioa;
 
 app.loader({
   ...loads,

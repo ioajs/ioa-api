@@ -1,7 +1,7 @@
-'use strict';
+import ioa from 'ioa';
+// import routerTree from '../lib/routerTree.js';
 
-const app = require('@app');
-// const routerTree = require('../lib/routerTree.js');
+const { app } = ioa;
 
 const { router, middleware } = app;
 const { test } = middleware;

@@ -1,5 +1,3 @@
-'use strict';
-
 class User {
    index(ctx) {
 
@@ -8,4 +6,4 @@ class User {
    }
 }
 
-module.exports = User;
+export default User;

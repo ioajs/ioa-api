@@ -1,8 +1,6 @@
-'use strict';
-
-const Koa = require('koa');
-const bodyParser = require('koa-bodyparser');
-const middleware = require('../lib/middleware.js');
+import Koa from 'koa';
+import bodyParser from 'koa-bodyparser';
+import middleware from '../lib/middleware.js';
 
 const koa = new Koa();
 
@@ -17,4 +15,4 @@ koa.listen(8600);
 
 console.log(`http server: http://localhost:8600`);
 
-module.exports = koa;
+export default koa;

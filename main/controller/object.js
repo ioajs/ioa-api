@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+export default {
   index(ctx) {
     ctx.body = 'object';
   }

@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = function(ctx) {
+export default function(ctx) {
 
   ctx.body = 'function';
 

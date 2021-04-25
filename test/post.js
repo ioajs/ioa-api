@@ -1,7 +1,5 @@
-'use strict';
-
-const test = require('jmr');
-const axios = require('axios');
+import test from 'jtm';
+import axios from 'axios';
 
 test('post /login', async t => {
 
