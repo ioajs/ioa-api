@@ -1,6 +1,6 @@
 {
   "name": "ioa-router",
-  "version": "11.0.0",
+  "version": "11.0.2",
   "type": "module",
   "description": "ioa 路由中间件",
   "main": "lib/middleware.js",

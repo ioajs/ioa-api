@@ -1,6 +1,9 @@
 export default class {
   index(ctx) {
 
+    console.log(ctx.global)
+    console.log(ctx.before)
+
     ctx.body = 'hello ioa';
     
   }

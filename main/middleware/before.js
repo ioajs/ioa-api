@@ -1,6 +1,6 @@
 export default async function (ctx, next) {
 
-   ctx.test = "test middleware";
+   ctx.before = "before middleware";
 
    await next();
    

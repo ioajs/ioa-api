@@ -4,9 +4,11 @@ import ioa from 'ioa';
 const { app } = ioa;
 
 const { router, middleware } = app;
-const { test } = middleware;
+const { global, before } = middleware;
 
-router.global(test);
+router.global(global);
+
+router.before(before);
 
 router.get('/', 'home.index');
 
