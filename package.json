@@ -1,6 +1,6 @@
 {
   "name": "ioa-router",
-  "version": "11.0.2",
+  "version": "11.0.6",
   "type": "module",
   "description": "ioa 路由中间件",
   "main": "lib/middleware.js",
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "axios": "^0.19.2",
-    "ioa": "^11.0.5-rc",
+    "ioa": "^11.0.6",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0"
   }
