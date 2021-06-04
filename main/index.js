@@ -3,7 +3,7 @@ import loads from '../lib/loads.js';
 
 const { app } = ioa;
 
-app.loader({
+app.import({
   ...loads,
   "koa.js": {
     "level": 15
