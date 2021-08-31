@@ -1,7 +1,7 @@
 import ioa from 'ioa';
 import loads from '../lib/loads.js';
 
-const { app } = ioa;
+const app = ioa.app();
 
 app.import({
   ...loads,

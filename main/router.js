@@ -1,7 +1,7 @@
 import ioa from 'ioa';
 // import routerTree from '../lib/routerTree.js';
 
-const { app } = ioa;
+const app = ioa.app();
 
 const { router, middleware } = app;
 const { global, before } = middleware;
