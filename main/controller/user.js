@@ -1,9 +1,7 @@
-class User {
-   index(ctx) {
+import api from '@ioa/api';
 
-      ctx.body = ctx.params;
-      
-   }
-}
+api.get('/user/:id', function (ctx) {
 
-export default User;
+   ctx.body = ctx.params;
+
+});

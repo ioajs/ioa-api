@@ -1,6 +1,6 @@
 import Koa from 'koa';
 import bodyParser from 'koa-bodyparser';
-import middleware from '../lib/middleware.js';
+import middleware from '@ioa/api/dist/middleware.js';
 
 const koa = new Koa();
 

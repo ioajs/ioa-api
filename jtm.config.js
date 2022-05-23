@@ -1,6 +1,4 @@
-import ioa from 'ioa';
 import axios from 'axios';
-
-await ioa.apps("./main");
+import './index.js';
 
 axios.defaults.baseURL = 'http://localhost:8600';

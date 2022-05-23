@@ -1,10 +1,12 @@
-import ioa from 'ioa';
-import loads from '../lib/loads.js';
+import { main } from 'ioa';
 
-const app = ioa.app();
-
-app.import({
-  ...loads,
+main.import({
+  "middleware": {
+    "level": 30
+  },
+  "controller": {
+    "level": 50
+  },
   "koa.js": {
     "level": 15
   }

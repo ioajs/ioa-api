@@ -1,25 +1,31 @@
-export default class {
-  index(ctx) {
+import api, { Get } from '@ioa/api';
 
-    console.log(ctx.global)
-    console.log(ctx.before)
+api.get('/', function (ctx) {
 
-    ctx.body = 'hello ioa';
-    
-  }
-  sms(ctx) {
+  console.log(ctx.global)
+  console.log(ctx.before)
 
-    ctx.body = ctx.params;
+  ctx.body = 'hello ioa';
 
-  }
-  login(ctx) {
+});
 
-    const body = ctx.request.body;
+// @Get('/xxx')
+function sms(ctx) {
 
-    ctx.body = {
-      type: 'login',
-      body
-    };
+  ctx.body = ctx.params;
 
-  }
-};
+}
+
+api.get('/sms/a/b', sms);
+api.get('/sms/:name/:sub', sms);
+
+api.post('/login', function (ctx) {
+
+  const body = ctx.request.body;
+
+  ctx.body = {
+    type: 'login',
+    body
+  };
+
+});
