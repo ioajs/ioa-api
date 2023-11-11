@@ -22,7 +22,7 @@
     "dist"
   ],
   "devDependencies": {
-    "axios": "^0.27.0",
+    "axios": "^1.6.0",
     "ioa": "^20.0.1"
   }
 }
